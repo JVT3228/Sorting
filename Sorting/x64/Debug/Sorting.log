@@ -1,0 +1,11 @@
+﻿  bubble_sort.cpp
+  exchange_sort.cpp
+  insertion_sort.cpp
+  main.cpp
+C:\Users\timof\source\Sorting\Sorting\src\insertion_sort.cpp(5,6): error C2995: void insertionSort(T *,int): шаблон функции уже определен
+      C:\Users\timof\source\Sorting\Sorting\src\insertion_sort.cpp(5,6):
+       см. объявление "insertionSort"
+  
+  optimized_bubble_sort.cpp
+  selection_sort.cpp
+  Создание кода...
