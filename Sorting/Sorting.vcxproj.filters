@@ -13,54 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{7f90db9d-c1f6-4ca9-9848-47b8a65b6c7c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{b4c7a344-058a-4ea8-8ead-9792cf69965a}</UniqueIdentifier>
+      <UniqueIdentifier>{9854a096-a001-4e14-9027-f0a452e7c3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{0942dc78-5909-4f81-8182-fa0e483e2942}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="include\bubble_sort.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\exchange_sort.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\insertion_sort.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\optimized_bubble_sort.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="include\selection_sort.h">
-      <Filter>include</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\bubble_sort.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\exchange_sort.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\insertion_sort.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\optimized_bubble_sort.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\selection_sort.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\main.cpp">
+    <ClCompile Include="Sorting.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="bubble_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="exchange_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="insertion_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="optimized_bubble_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="selection_sort.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bubble_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="exchange_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="insertion_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="optimized_bubble_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
