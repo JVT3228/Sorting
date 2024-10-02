@@ -1,0 +1,8 @@
+﻿  tests.cpp
+  test_bubble_sort.cpp
+  test_exchange_sort.cpp
+  test_insertion_sort.cpp
+  test_optimized_bubble_sort.cpp
+  test_selection_sort.cpp
+  Создание кода...
+  tests.vcxproj -> C:\Users\timof\source\repos\Sorting\tests\x64\Debug\tests.exe
