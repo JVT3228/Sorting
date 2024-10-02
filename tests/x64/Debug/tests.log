@@ -5,9 +5,4 @@
   test_optimized_bubble_sort.cpp
   test_selection_sort.cpp
   Создание кода...
-LINK : warning LNK4067: неоднозначная точка входа; выбрана "mainCRTStartup"
-test_bubble_sort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl bubbleSort<int>(int *,int)" (??$bubbleSort@H@@YAXPEAHH@Z) в функции "void __cdecl C_A_T_C_H_T_E_S_T_0(void)" (?C_A_T_C_H_T_E_S_T_0@@YAXXZ).
-test_exchange_sort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl exchangeSort<int>(int *,int)" (??$exchangeSort@H@@YAXPEAHH@Z) в функции "void __cdecl C_A_T_C_H_T_E_S_T_0(void)" (?C_A_T_C_H_T_E_S_T_0@@YAXXZ).
-test_optimized_bubble_sort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl optimizedBubbleSort<int>(int *,int)" (??$optimizedBubbleSort@H@@YAXPEAHH@Z) в функции "void __cdecl C_A_T_C_H_T_E_S_T_0(void)" (?C_A_T_C_H_T_E_S_T_0@@YAXXZ).
-test_selection_sort.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl selectionSort<int>(int *,int)" (??$selectionSort@H@@YAXPEAHH@Z) в функции "void __cdecl C_A_T_C_H_T_E_S_T_0(void)" (?C_A_T_C_H_T_E_S_T_0@@YAXXZ).
-C:\Users\timof\source\Sorting\x64\Debug\tests.exe : fatal error LNK1120: неразрешенных внешних элементов: 4
+  tests.vcxproj -> C:\Users\timof\source\Sorting\x64\Debug\tests.exe
